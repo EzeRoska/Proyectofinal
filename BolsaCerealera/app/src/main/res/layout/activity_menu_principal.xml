@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootRL"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/trigofondo">
+
+    <Button
+        android:id="@+id/btnCotizaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Cotizaciones"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCotizaciones"
+        android:layout_alignStart="@+id/btnCotizaciones"
+        android:layout_below="@+id/btnCotizaciones"
+        android:layout_marginTop="38dp"
+        android:text="Movimiento"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:layout_alignRight="@+id/btnCotizaciones"
+        android:layout_alignEnd="@+id/btnCotizaciones" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:text="Mi Bolsillo"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignEnd="@+id/button4" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:layout_below="@+id/button5"
+        android:layout_marginTop="46dp"
+        android:text="Agronoticias"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
