@@ -33,6 +33,16 @@ public class listaMovimiento extends Fragment {
 
             ArrayList<Movimiento> movimientos;
             movimientos = new ArrayList<>();
+        Movimiento m= new Movimiento(100.0f,'e');
+        movimientos.add(m);
+        m= new Movimiento(200.0f,'e');
+        movimientos.add(m);
+        m= new Movimiento(300.0f,'s');
+        movimientos.add(m);
+        m= new Movimiento(400.0f,'e');
+        movimientos.add(m);
+        m= new Movimiento(500.0f,'s');
+        movimientos.add(m);
 
              MovimientosAdapter adapter = new MovimientosAdapter(getContext(), movimientos);
             listamov.setAdapter(adapter);
