@@ -45,6 +45,9 @@ public class MovimientosAdapter extends BaseAdapter{
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             view = inflater.inflate(R.layout.list_item, viewGroup, false);
 
+            TextView nombreTV = (TextView)view.findViewById(R.id.nombre);
+            TextView apellidoTV = (TextView)view.findViewById(R.id.apellido);
+
 
 
         }
