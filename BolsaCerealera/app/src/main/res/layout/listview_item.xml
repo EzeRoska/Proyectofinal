@@ -11,7 +11,7 @@
 
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/importe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30dp"
@@ -19,7 +19,7 @@
         android:text="Hola como estas " />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/entrada_salida"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30dp"

@@ -25,13 +25,13 @@ public class Basededatos extends SQLiteOpenHelper {
             baseDeDatos.execSQL(sqlCrearTablaLogin);
             Log.d("SQLite"," fin de la creacion de la tabla Login");
 
-            Log.d("SQLite","Declaro e inicializo la variable para crear la tabla Movimiento");
+            Log.d("SQLite","Declaro e inicializo la variable para crear la tabla MovimientoFragment");
             String sqlCrearTablaMovimiento;
-            sqlCrearTablaMovimiento=" create table Movimiento(Id integer, Fecha integer, Grano text,Medicion boolean,Entrada integer, Salida integer)";
+            sqlCrearTablaMovimiento=" create table MovimientoFragment(Id integer, Fecha integer, Grano text,Medicion boolean,Entrada integer, Salida integer)";
 
             Log.d("SQLite","invoca al creador de la tabla");
             baseDeDatos.execSQL(sqlCrearTablaMovimiento);
-            Log.d("SQLite"," fin de la creacion de la tabla Movimiento");
+            Log.d("SQLite"," fin de la creacion de la tabla MovimientoFragment");
 
             Log.d("SQLite","Declaro e inicializo la variable para crear la tabla Cotizaciones");
             String sqlCrearTablaCotizaciones;

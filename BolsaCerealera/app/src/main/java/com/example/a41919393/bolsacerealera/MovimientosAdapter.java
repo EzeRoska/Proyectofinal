@@ -41,17 +41,22 @@ public class MovimientosAdapter extends BaseAdapter{
 
     @Override
     public View getView(int position, View view, ViewGroup viewGroup) {
-        if (view== null){
+        if (view== null) {
             LayoutInflater inflater = (LayoutInflater) context
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             view = inflater.inflate(R.layout.list_item, viewGroup, false);
-
-            TextView nombreTV = (TextView)view.findViewById(R.id.nombre);
-            TextView apellidoTV = (TextView)view.findViewById(R.id.apellido);
-
-
-
         }
+         TextView importe= (TextView)view.findViewById(R.id.importe);
+         TextView entrada_salida = (TextView)view.findViewById(R.id.entrada_salida);
+
+
+
+        Movimiento m = movimientos.get(position);
+
+     //   importe.setText(m.getNombre());
+     //   entrada_salida.setText(m.getApellido());
+
+        return view;
 
 
     }
