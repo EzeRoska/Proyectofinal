@@ -1,0 +1,57 @@
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootRL"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/trigofondo">
+
+    <Button
+        android:id="@+id/btnCotizaciones"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Cotizaciones"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Movimiento"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:layout_below="@+id/btnCotizaciones"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="Mi Bolsillo"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/button7"
+        android:layout_alignRight="@+id/button7"
+        android:layout_alignEnd="@+id/button7"
+        android:layout_marginTop="54dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agronoticias"
+        android:layout_marginTop="49dp"
+        android:textSize="40dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignEnd="@+id/button4" />
+
+
+</RelativeLayout>

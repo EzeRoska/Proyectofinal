@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:text="Mi Bolsillo"
-        android:layout_marginLeft="80"
+        android:layout_marginLeft="80dp"
         android:textColor="@android:color/black"
         android:textSize="50dp"
         android:layout_alignParentTop="true"
@@ -47,7 +47,7 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:layout_marginLeft="150"
+        android:layout_marginLeft="150dp"
         android:text="Valor($)"
         android:textColor="@android:color/black"
         android:textSize="25sp" />
@@ -61,8 +61,8 @@
         android:layout_alignStart="@+id/textView8"
         android:layout_alignTop="@+id/textView2"
         android:ems="10"
-        android:layout_marginTop="130"
-        android:layout_marginLeft="150"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="150dp"
 
         android:inputType="textPersonName" />
     <TextView
@@ -109,8 +109,8 @@
         android:layout_alignLeft="@+id/editText10"
         android:layout_alignStart="@+id/editText10"
         android:layout_alignTop="@+id/textView10"
-        android:layout_marginLeft="150"
-        android:layout_marginTop="390"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="390dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:layout_alignRight="@+id/editText2"
@@ -125,8 +125,8 @@
         android:layout_alignBottom="@+id/textView11"
         android:layout_toRightOf="@+id/textView9"
         android:layout_alignRight="@+id/editText2"
-        android:layout_marginTop="300"
-        android:layout_marginLeft="150"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="150dp"
         android:layout_alignEnd="@+id/editText2" />
 
     <EditText
@@ -136,7 +136,7 @@
         android:layout_alignEnd="@+id/editText9"
         android:layout_alignRight="@+id/editText9"
         android:layout_alignTop="@+id/textView9"
-        android:layout_marginLeft="150"
+        android:layout_marginLeft="150dp"
         android:layout_marginTop="215dp"
         android:layout_toRightOf="@+id/textView9"
         android:ems="10"
@@ -149,7 +149,7 @@
         android:layout_marginBottom="24dp"
         android:layout_marginLeft="48dp"
         android:layout_marginStart="280dp"
-        android:layout_marginTop="450"
+        android:layout_marginTop="450dp"
 
         android:layout_toEndOf="@+id/editText10"
         android:layout_toRightOf="@+id/editText10"

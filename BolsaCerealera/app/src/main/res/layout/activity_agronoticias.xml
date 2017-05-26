@@ -17,3 +17,4 @@
         android:text="AgroNoticias"
         android:textColor="@android:color/black"
         android:textSize="50sp" />
+    </RelativeLayout>
