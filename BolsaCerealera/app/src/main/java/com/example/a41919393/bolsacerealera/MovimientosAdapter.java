@@ -1,6 +1,7 @@
 package com.example.a41919393.bolsacerealera;
 
 import android.content.Context;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -28,17 +29,21 @@ public class MovimientosAdapter extends BaseAdapter{
 
     @Override
     public Object getItem(int position) {
-        return movimientos.get(i);
+        return movimientos.get(position);
     }
 
     @Override
     public long getItemId(int position) {
-        return i;
+        return position
+                ;
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup par) {
+    public View getView(int position, View view, ViewGroup viewGroup) {
         if (view== null){
+            LayoutInflater inflater = (LayoutInflater) context
+                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            view = inflater.inflate(R.layout.list_item, viewGroup, false);
 
 
 
