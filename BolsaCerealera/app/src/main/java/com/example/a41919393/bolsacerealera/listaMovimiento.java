@@ -26,30 +26,26 @@ public class listaMovimiento extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.layout.layout.fragment_lista_movimiento, container, false);
+        View v= inflater.inflate(R.layout.layout.layout.fragment_lista_movimiento, container, false);
 
 
             ListView listamov;
 
-            listamov = (ListView) findViewById(R.id.listamov);
+            listamov = (ListView) v.findViewById(R.id.listamov);
 
-            ArrayList<listaMovimiento> movimientos;
+            ArrayList<Movimiento> movimientos;
             movimientos = new ArrayList<>();
 
-            MovimientosPersonas adapter = new MovimientosAdapter(this, movimientos);
+             MovimientosAdapter adapter = new MovimientosAdapter(getContext(), movimientos);
             listamov.setAdapter(adapter);
 
 
 
-                public MovimientosAdapter(Context context, ArrayList<movimiento> movimientos) {
-                    this.context = context;
-                    this.movimientos = movimientos;
-                }
+
+        return v;
             }
 
-    public class MovimientosAdapter extends BaseAdapter {
-        ArrayList<Movimiento> movimientos;
-        Context context;
+
 
 
 
