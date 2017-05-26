@@ -23,21 +23,27 @@ public class MovimientosAdapter extends BaseAdapter{
 
     @Override
     public int getCount() {
-        return 0;
+        return movimientos.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return null;
+        return movimientos.get(i);
     }
 
     @Override
     public long getItemId(int position) {
-        return 0;
+        return i;
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        return null;
+        if (view== null){
+            layoutInflater
+
+
+        }
+
+
     }
 }
