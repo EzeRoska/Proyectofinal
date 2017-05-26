@@ -37,9 +37,9 @@ public class MovimientosAdapter extends BaseAdapter{
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, ViewGroup par) {
         if (view== null){
-            layoutInflater
+
 
 
         }
