@@ -1,7 +1,5 @@
 <RelativeLayout
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/rootRL"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"

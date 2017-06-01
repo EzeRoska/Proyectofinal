@@ -24,12 +24,13 @@ public class listaMovimiento extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v= inflater.inflate(R.layout.layout.layout.fragment_lista_movimiento, container, false);
+        View v= inflater.inflate(R.layout.fragment_lista_movimiento, container, false);
 
+        //DONDE HACER RECEPCION DE BUNDLE
 
             ListView listamov;
 
-            listamov = (ListView) v.findViewById(R.id.listamov);
+            listamov = (ListView) v.findViewById(R.id.ListaMov);
 
             ArrayList<Movimiento> movimientos;
             movimientos = new ArrayList<>();
@@ -46,6 +47,7 @@ public class listaMovimiento extends Fragment {
 
              MovimientosAdapter adapter = new MovimientosAdapter(getContext(), movimientos);
             listamov.setAdapter(adapter);
+
 
 
 
@@ -69,6 +71,8 @@ public class listaMovimiento extends Fragment {
 
 
 
-}
+
+
+
 
 

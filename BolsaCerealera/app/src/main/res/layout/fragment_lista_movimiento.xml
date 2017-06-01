@@ -1,7 +1,6 @@
 <LinearLayout  xmlns:tools="http://schemas.android.com/tools"
 android:id="@+id/rootRL"
 xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:android="http://schemas.android.com/apk/res/android"
 android:orientation="vertical"
 android:layout_width="fill_parent"
 android:layout_height="fill_parent"
@@ -15,7 +14,6 @@ android:background="@drawable/trigofondo">
     android:layout_marginLeft="30dp"
     android:layout_marginTop="10dp"
     android:text="Listado Movimientos"
-    android:textColor="black"
     android:textSize="35dp" />
 
     <ListView

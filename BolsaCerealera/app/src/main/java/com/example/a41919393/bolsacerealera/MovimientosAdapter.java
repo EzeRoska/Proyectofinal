@@ -44,7 +44,7 @@ public class MovimientosAdapter extends BaseAdapter{
         if (view== null) {
             LayoutInflater inflater = (LayoutInflater) context
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            view = inflater.inflate(R.layout.list_item, viewGroup, false);
+            view = inflater.inflate(R.layout.listview_item, viewGroup, false);
         }
          TextView importe= (TextView)view.findViewById(R.id.importe);
          TextView entrada_salida = (TextView)view.findViewById(R.id.entrada_salida);
@@ -60,4 +60,6 @@ public class MovimientosAdapter extends BaseAdapter{
 
 
     }
+
+
 }
