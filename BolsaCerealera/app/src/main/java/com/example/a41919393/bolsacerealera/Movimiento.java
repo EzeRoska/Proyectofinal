@@ -1,7 +1,10 @@
 package com.example.a41919393.bolsacerealera;
 
+import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Spinner;
@@ -10,7 +13,7 @@ import android.widget.Spinner;
  * Created by 41919393 on 26/5/2017.
  */
 
-public class Movimiento {
+public class Movimiento extends AppCompatActivity{
     float importe;
 
 
@@ -52,6 +55,15 @@ public class Movimiento {
         paqueteDatos.putString("Grano", Grano);
         Intent IrAFragment = new Intent(VistaR.getContext(), listaMovimiento.class);
         IrAFragment.putExtras(paqueteDatos);
-        //falta startactivity
+
+
+        listaMovimiento lm = new listaMovimiento(amdms,dm asd,sd)
+        FragmentManager fm = getFragmentManager();
+        FragmentTransaction tx = getSupportFragmentManager().beginTransaction();
+        tx.replace(android.R.id.content, lm, "UN_TAG");
+        tx.commit();
+
+
+
     }
 }
