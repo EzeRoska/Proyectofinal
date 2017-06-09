@@ -18,6 +18,7 @@ public class Movimiento extends AppCompatActivity{
 
 
 
+
     char entrada_salida;
 
 
@@ -57,7 +58,7 @@ public class Movimiento extends AppCompatActivity{
         IrAFragment.putExtras(paqueteDatos);
 
 
-        listaMovimiento lm = new listaMovimiento(amdms,dm asd,sd)
+        listaMovimiento lm = new listaMovimiento();
         FragmentManager fm = getFragmentManager();
         FragmentTransaction tx = getSupportFragmentManager().beginTransaction();
         tx.replace(android.R.id.content, lm, "UN_TAG");

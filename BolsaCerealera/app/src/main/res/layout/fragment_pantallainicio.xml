@@ -18,7 +18,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnMovimiento"
         android:layout_width="310dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
@@ -28,28 +28,28 @@
         android:layout_below="@+id/btnCotizaciones"
         android:layout_centerHorizontal="true" />
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnNoticias"
         android:layout_width="310dp"
         android:layout_height="wrap_content"
-        android:text="Mi Bolsillo"
+        android:text="Noticias"
         android:textColor="@android:color/black"
         android:textSize="40dp"
         android:layout_marginLeft="20dp"
-        android:layout_below="@+id/button7"
-        android:layout_alignRight="@+id/button7"
-        android:layout_alignEnd="@+id/button7"
+        android:layout_below="@+id/btnMiBolsillo"
+        android:layout_alignRight="@+id/btnMiBolsillo"
+        android:layout_alignEnd="@+id/btnMiBolsillo"
         android:layout_marginTop="54dp" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btnMiBolsillo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Agronoticias"
+        android:text="  MI BOLSILLO   "
         android:layout_marginTop="49dp"
         android:textSize="40dp"
-        android:layout_below="@+id/button4"
-        android:layout_alignRight="@+id/button4"
-        android:layout_alignEnd="@+id/button4" />
+        android:layout_below="@+id/btnMovimiento"
+        android:layout_alignRight="@+id/btnMovimiento"
+        android:layout_alignEnd="@+id/btnMovimiento" />
 
 
 </RelativeLayout>

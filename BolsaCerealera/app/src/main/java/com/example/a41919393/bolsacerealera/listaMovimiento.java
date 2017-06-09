@@ -17,7 +17,7 @@ import java.util.StringTokenizer;
  */
 public class listaMovimiento extends Fragment {
 
-    public listaMovimiento(p1,p2,p3) {
+    public listaMovimiento() {
         // Required empty public constructor
     }
 

@@ -19,7 +19,7 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnMovimiento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/btnCotizaciones"
@@ -33,26 +33,26 @@
         android:layout_alignEnd="@+id/btnCotizaciones" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnNoticias"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="51dp"
         android:text="Mi Bolsillo"
         android:textColor="@android:color/black"
         android:textSize="40sp"
-        android:layout_below="@+id/button4"
-        android:layout_alignLeft="@+id/button4"
-        android:layout_alignStart="@+id/button4"
-        android:layout_alignRight="@+id/button4"
-        android:layout_alignEnd="@+id/button4" />
+        android:layout_below="@+id/btnMovimiento"
+        android:layout_alignLeft="@+id/btnMovimiento"
+        android:layout_alignStart="@+id/btnMovimiento"
+        android:layout_alignRight="@+id/btnMovimiento"
+        android:layout_alignEnd="@+id/btnMovimiento" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5"
-        android:layout_below="@+id/button5"
+        android:layout_alignLeft="@+id/btnNoticias"
+        android:layout_alignStart="@+id/btnNoticias"
+        android:layout_below="@+id/btnNoticias"
         android:layout_marginTop="46dp"
         android:text="Agronoticias"
         android:textColor="@android:color/black"
