@@ -36,12 +36,12 @@ public class PantallainicioFragment extends Fragment implements View.OnClickList
         View v=inflater.inflate(R.layout.fragment_pantallainicio, container, false);
 
         Button cotiz = (Button)v.findViewById(R.id.btnCotizaciones);
-        Button Mov = (Button)v.findViewById(R.id.btnMovimiento);
+        Button Lmov = (Button)v.findViewById(R.id.btnMovimiento);
         Button Mibol = (Button)v.findViewById(R.id.btnMiBolsillo);
         Button Notic = (Button)v.findViewById(R.id.btnNoticias);
 
         cotiz.setOnClickListener(this);
-        Mov.setOnClickListener(this);
+        Lmov.setOnClickListener(this);
         Mibol.setOnClickListener(this);
         Notic.setOnClickListener(this);
         return v;
@@ -57,8 +57,8 @@ public class PantallainicioFragment extends Fragment implements View.OnClickList
                 mainActivity.changeFragment(cf);
             break;
             case R.id.btnMovimiento:
-                MovimientoFragment mf = new MovimientoFragment();
-                mainActivity.changeFragment(mf);
+                listaMovimiento Lm= new listaMovimiento();
+                mainActivity.changeFragment(Lm);
                 break;
             case R.id.btnMiBolsillo:
                 MiBolsilloFrag mbf= new MiBolsilloFrag();

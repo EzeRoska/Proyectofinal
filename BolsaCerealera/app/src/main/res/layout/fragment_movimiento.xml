@@ -146,17 +146,25 @@
 
     <Button
         android:id="@+id/botonGuardar"
-        android:onClick="btnGuardar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="200dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="280dp"
         android:layout_marginTop="450dp"
         android:layout_toEndOf="@+id/textView7"
         android:layout_toRightOf="@+id/textView7"
+        android:onClick="btnGuardar"
         android:text="Guardar" />
+
+    <Button
+        android:id="@+id/botonVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginBottom="20dp"
+        android:text="Volver" />
 
 
 </FrameLayout>

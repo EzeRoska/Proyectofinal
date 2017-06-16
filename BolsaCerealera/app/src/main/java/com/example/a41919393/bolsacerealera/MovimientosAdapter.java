@@ -54,7 +54,7 @@ public class MovimientosAdapter extends BaseAdapter{
         Movimiento m = movimientos.get(position);
 
        importe.setText(String.valueOf(m.getImporte()));
-        entrada_salida.setText(m.getEntrada_salida());
+        //entrada_salida.setText(m.getEntrada_salida());
 
         return view;
 
