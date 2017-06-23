@@ -41,39 +41,33 @@ public class listaMovimiento extends Fragment implements View.OnClickListener {
         String Grano = bundle.getString("Grano");
 
 
+
+
+
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_lista_movimiento, container, false);
         Button CargarMovs = (Button)v.findViewById(R.id.btnCargar);
 
         CargarMovs.setOnClickListener(this);
 
-
-
-
-
-
         ListView listamov;{
 
             listamov = (ListView) v.findViewById(R.id.ListaMov);
             ArrayList<Movimiento> movimientos;
             movimientos = new ArrayList<>();
-            Movimiento m= new Movimiento(100.0f,'e');
+            Movimiento m= new Movimiento((float)1.0, (float)1.0, 10, "Grano"); // float Fecha , float Lote , int Cantidad , String Grano
             movimientos.add(m);
-            m= new Movimiento(200.0f,'e');
+            m= new Movimiento((float)1.0, (float)1.0, 10, "Grano");
             movimientos.add(m);
-            m= new Movimiento(300.0f,'s');
+            m= new Movimiento((float)1.0, (float)1.0, 10, "Grano");
             movimientos.add(m);
-            m= new Movimiento(400.0f,'e');
-            movimientos.add(m);
-            m= new Movimiento(500.0f,'s');
+            m= new Movimiento((float)1.0, (float)1.0, 10, "Grano");
             movimientos.add(m);
 
             MovimientosAdapter adapter = new MovimientosAdapter(getContext(), movimientos);
             listamov.setAdapter(adapter);
             return v;
         }
-
-
 
     }
 

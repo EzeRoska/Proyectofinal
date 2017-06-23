@@ -9,30 +9,39 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-/**
- * Created by 41919393 on 26/5/2017.
- */
 
 public class Movimiento extends AppCompatActivity{
-    float importe;
+    float Fecha;
+    float Lote;
+    int Cantidad;
+    String Grano;
 
-
-
-
-    char entrada_salida;
-
-
-    public Movimiento(float importe, char entrada_salida) {
-        this.importe = importe;
-        this.entrada_salida = entrada_salida;
+    public Movimiento(float Fecha , float Lote , int Cantidad , String Grano) {
+        this.Fecha = Fecha;
+        this.Lote = Lote;
+        this.Cantidad = Cantidad;
+        this.Grano = Grano;
     }
 
-    public float getImporte() {
-        return importe;
+    public float getFecha()
+    {
+        return Fecha;
+
     }
 
-    public char getEntrada_salida() {
-        return entrada_salida;
+    public float getLote()
+    {
+        return Lote;
+
+    }
+    public int getCantidad()
+    {
+        return Cantidad;
+    }
+    public String getGrano()
+    {
+        return Grano;
+
     }
 
     public void btnGuardar(View VistaR) {

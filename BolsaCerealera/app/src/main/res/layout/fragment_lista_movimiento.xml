@@ -21,7 +21,8 @@ android:background="@drawable/trigofondo">
         android:layout_width="250dp"
         android:layout_height="300dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="30dp" >
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent">
 
 
     </ListView>
@@ -30,8 +31,9 @@ android:background="@drawable/trigofondo">
         android:id="@+id/btnvolver"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginRight="300dp"
+        android:layout_marginRight="290dp"
         android:layout_marginTop="30dp"
+        android:textSize="10dp"
         android:text="Volver" />
 
     <Button
@@ -39,6 +41,7 @@ android:background="@drawable/trigofondo">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="250dp"
+        android:textSize="10dp"
         android:text="Cargar Movimientos" />
 
 
